@@ -1,4 +1,4 @@
-const socket = io('http://localhost:5000');
+const socket = io('https://chat-app-back-4f1qpvsqf-steveelougas-projects.vercel.app');
 const messages = document.getElementById('messages');
 const messageForm = document.getElementById('message-form');
 const messageInput = document.getElementById('message-input');
