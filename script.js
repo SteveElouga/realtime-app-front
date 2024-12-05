@@ -1,5 +1,5 @@
 const socket = io(
-  "https://chat-app-back-r0b1mb9ow-steveelougas-projects.vercel.app"
+  "https://chat-app-back-beta.vercel.app/"
 );
 const messages = document.getElementById("messages");
 const messageForm = document.getElementById("message-form");

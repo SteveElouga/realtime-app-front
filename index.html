@@ -3,18 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Real-time Notification System</title>
+    <title>Simple Chat App</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Real-time Notification System</h1>
+    <div class="chat-container">
+        <h1>Simple Chat App</h1>
         <div id="messages" class="messages"></div>
-        <form id="message-form">
+        <form id="chat-form" class="chat-form">
             <input type="text" id="message-input" placeholder="Type a message..." required>
             <button type="submit">Send</button>
         </form>
-        <div id="notification" class="notification"></div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.2/socket.io.js"></script>
     <script src="script.js"></script>
