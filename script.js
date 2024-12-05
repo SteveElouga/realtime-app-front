@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", (event) => {
   const socket = io("https://chat-app-back-beta.vercel.app", {
-    transports: ["polling", "websocket"],
+    transports: ["websocket"],
   }); // Assurez-vous que l'URL correspond à votre serveur Flask
   const chatMessages = document.getElementById("chat-messages");
   const chatForm = document.getElementById("chat-form");
