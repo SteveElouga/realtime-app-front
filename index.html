@@ -1,21 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Chat App</title>
+    <title>Chat en temps réel</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="chat-container">
-        <h1>Simple Chat App</h1>
-        <div id="messages" class="messages"></div>
-        <form id="chat-form" class="chat-form">
-            <input type="text" id="message-input" placeholder="Type a message..." required>
-            <button type="submit">Send</button>
+        <header>
+            <h1>Chat en temps réel</h1>
+        </header>
+        <div class="chat-messages" id="chat-messages"></div>
+        <div class="notification" id="notification"></div>
+        <form id="chat-form">
+            <input type="text" id="message-input" placeholder="Tapez votre message..." required>
+            <button type="submit">Envoyer</button>
         </form>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.2/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
